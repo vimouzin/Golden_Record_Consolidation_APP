@@ -2,6 +2,9 @@ step 1:
 to start this project please enter your jfrog log in credentials within 
 your .npmrc file.
     your file should look like this:
+    
+    
+    
     registry=https://tamr.jfrog.io/artifactory/api/npm/npm/
 _auth = "your token here"
 email="your tamr email here"
