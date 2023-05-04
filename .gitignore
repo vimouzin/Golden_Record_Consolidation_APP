@@ -1,8 +1,8 @@
 # See https:/golden_record_consolidation//golden_record_consolidation/help.github.com/golden_record_consolidation/articles/golden_record_consolidation/ignoring-files/golden_record_consolidation/ for more about ignoring files.
 
 # dependencies
-/golden_record_consolidation/node_modules
-/golden_record_consolidation/.pnp
+../golden_record_consolidation/node_modules
+../golden_record_consolidation/.pnp
 .pnp.js
 
 # testing
@@ -22,3 +22,4 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 node_modules
+
