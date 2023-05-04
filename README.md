@@ -13,9 +13,10 @@ step 2:
     npm install
 
 step 3: cd into top directory /GOLDEN_RECORD
-        and run sudo java -jar flex-transform-cli-jvm-0.0.0-all.jar --server
+        and run 
+        sudo java -jar transform.jar --server
 
 step 4: within /GOLDEN_RECORD/golden_record_consolidation/
-        DO npm run start 
-
-        m
+        DO 
+        
+        npm run start 
