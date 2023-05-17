@@ -71,6 +71,7 @@ export const TamrGridDemo = ({ type, data_m }: TransformResult) => {
         rows={rows}
         columns={responseColumns}
         apiRef={apiRef}
+        scrollbarSize={50}
         alwaysVisibleFields={['Id']}
         slots={{ toolbar: CustomToolbar }}
         slotProps={{
@@ -80,6 +81,7 @@ export const TamrGridDemo = ({ type, data_m }: TransformResult) => {
             clearSearch: () => requestSearch(''),
           },
         }}
+        style={{maxHeight:"450px",minHeight:"450px"}}
       />
     </div>
   )
